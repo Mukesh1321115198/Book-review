@@ -60,7 +60,7 @@ A full-featured book review and management application built with the MERN stack
   - Axios
   - Zod for schema validation
   - React Router DOM for routing
-  - Cloudinary for image uploads (optional)
+  
 
 ## Installation Guide
 
@@ -73,18 +73,16 @@ You can use use Mongo Atlas URL instead of local MongoDB
 
 ### Configure Environment Variables
 
-Rename .env.example to .env in both backend and frontend directories.
 
-Add your `MONGO_URL`, `JWT_SECRET`, `CLOUD_NAME`, `CLOUD_API_KEY`, `CLOUD_API_SECRET`, and `PORT` to the backend .env files.
+Add your `MONGO_URL`, `JWT_SECRET` and `PORT` to the backend .env files.
 
-If you don't have Cloudinary, you can replace `cloudStorage` with `diskStorage` in `/backend/middleware/upload.js`.
 
 ### Installation
 
 #### Clone the Repository
 
 ```shell
-git clone https://github.com/NEET64/book-world.git
+git clone https://github.com/Mukesh1321115198/Book-review
 cd book-world
 ```
 
